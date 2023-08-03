@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen"  href="css/css/estilo.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+     
+    <h1 id="titulo 1">titulo antigo</h1>
+
+    <button onclick="mudarTitulo()">novo titulo</button>
+
+    <br/><br/>
+          
+   <img id ="imagem" src="img/sol.jpg"/> 
+   <br/><br/>
+
+   <button onclick="MudarParaSOL()">sol</button> 
+   <button onclick="MudarParaLua()">lua</button> 
+   <br/><br/>
+
+   <form action="" onsubmit="return validarDados(this)" method="post">
+    nome : <input type="text" name="txtNome">
+    <input type="submit" value="enviar">
+      </form>
+      <BR/><br/>
+
+  <h1 onclick="this.innerHTML='clicou'">clique qui</h1>
+
+<br/><br/>
+  <div id="testemouse" onmouseover="mudarEntrou(this)" onmouseout="mudarSair()">texto padrão</div>
+</body>
+</html>
+
+

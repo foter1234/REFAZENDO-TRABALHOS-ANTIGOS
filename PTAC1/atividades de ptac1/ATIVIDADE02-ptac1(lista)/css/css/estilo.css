@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+ #conclusao{
+     margin-left: -100px ;
+     width: 280px;
+     padding-left: 100px;
+ }
